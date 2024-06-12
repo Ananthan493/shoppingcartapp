@@ -22,7 +22,13 @@ const Navbar = () => {
           <Link class="nav-link" to="/delete">Delete</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/viewall">View</Link>
+          <Link class="nav-link" to="/newview"></Link>
+        </li>
+        <li class="nav-item">
+          <Link class="nav-link" to="/viewnews"></Link>
+        </li>
+        <li class="nav-item">
+          <Link class="nav-link" to="/newdyn">Viewdyn</Link>
         </li>
       </ul>
     </div>
